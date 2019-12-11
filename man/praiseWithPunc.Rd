@@ -7,9 +7,9 @@
 praiseWithPunc(x = "John", punctuation = "!")
 }
 \arguments{
-\item{x}{This is the name of the person the function will praise.}
+\item{x}{text string, This is the name of the person the function will praise.}
 
-\item{punctuation}{empasis type}
+\item{punctuation}{text string, empasis type}
 }
 \value{
 Text string with praise to Name

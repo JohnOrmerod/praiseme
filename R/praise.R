@@ -16,7 +16,7 @@ praiseJohn <- function() {
 #'
 #' @description This function is useful to praise Name when they are sad.
 #'
-#' @param x This is the name of the person the function will praise.
+#' @param x text string, This is the name of the person the function will praise.
 #'
 #' @return Text string with praise to Name
 #' @export
@@ -32,8 +32,8 @@ praise <- function(x="John") {
 #'
 #' @description This function is useful to praise Name when they are sad.
 #'
-#' @param x This is the name of the person the function will praise.
-#' @param punctuation empasis type
+#' @param x text string, This is the name of the person the function will praise.
+#' @param punctuation text string, empasis type
 #'
 #' @return Text string with praise to Name
 #' @export

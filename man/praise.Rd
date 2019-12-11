@@ -7,7 +7,7 @@
 praise(x = "John")
 }
 \arguments{
-\item{x}{This is the name of the person the function will praise.}
+\item{x}{text string, This is the name of the person the function will praise.}
 }
 \value{
 Text string with praise to Name
