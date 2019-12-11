@@ -39,7 +39,11 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(praiseme)
+
 ## basic example code
+praise("John")
+praiseJohn()
+praiseWithPunc("Nick","!!!")
 ```
 
  
