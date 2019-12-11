@@ -26,3 +26,20 @@ praiseJohn <- function() {
 praise <- function(x="John") {
   paste0("You da best ",x);
 }
+
+
+#' Delivering praise to Name with punctuation
+#'
+#' @description This function is useful to praise Name when they are sad.
+#'
+#' @param x This is the name of the person the function will praise.
+#' @param punctuation empasis type
+#'
+#' @return Text string with praise to Name
+#' @export
+#'
+#' @examples
+#' praise()
+praiseWithPunc <- function(x="John", punctuation="!") {
+  paste0("You da best ",x, punctuation);
+}

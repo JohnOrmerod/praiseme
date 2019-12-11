@@ -2,3 +2,4 @@
 
 export(praise)
 export(praiseJohn)
+export(praiseWithPunc)
