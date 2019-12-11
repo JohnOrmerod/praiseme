@@ -1,0 +1,14 @@
+Package: praiseme
+Title: This packages praises me and other people
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "John",
+           family = "Da Bomb",
+           role = c("aut", "cre"),
+           email = "john.ormerod@sydney.edu.au",
+           comment = c(ORCID = "I am an ORC argh"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
