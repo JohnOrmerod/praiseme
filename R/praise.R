@@ -41,5 +41,5 @@ praise <- function(x="John") {
 #' @examples
 #' praise()
 praiseWithPunc <- function(x="John", punctuation="!") {
-  paste0("You da best ",x, punctuation);
+  glue::glue("You da best {x}{punctuation}");
 }
